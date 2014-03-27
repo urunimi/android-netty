@@ -1,8 +1,16 @@
-netty-android
+Netty client library for Android
 =============
 
 <b>Introduction</b>
- 
+
+
+This library is based on Netty(http://netty.io/) Project v3.8. <br/>
+
+There are too many unusable APIs in the Original project, because Android is not a Java SE environment.
+
+If you are developing an TCP client, or if the server uses the Netty library, try to use this library.
+
+
 이 라이브러리는 Netty(http://netty.io/) 프로젝트 v3.8을 Android 용으로 경량화한 버전입니다. <br/>
 별도의 소스코드 추가없이 Netty 내부의 코드에서 Android에 불필요한 내용을 삭제하고 정리했습니다. <br/>
 Copyright 및 License는 Netty 프로젝트와 동일합니다.
