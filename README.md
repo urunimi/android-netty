@@ -11,7 +11,7 @@ If you are developing an TCP client, or if the server uses the Netty library, tr
 
 This library is much smaller than original library (About 279 KB, with Proguard 50~100 KB).
 
-
+<br/><br/><br/>
 
 
 
@@ -27,7 +27,7 @@ Android Framework은 Java SE 기반이 아니기 때문에 SE 기반으로 작�
 Jar 파일 용량 기준 279 KB 정도로 기존 1.2 MB에 비해 1/3 도 안되는 크기 이며 Proguard 적용시 50 ~ 100 KB 미만으로 줄일 수 있습니다.
 
 
-
+<br/><br/><br/>
 
 <b>License</b>
  
