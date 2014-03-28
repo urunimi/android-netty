@@ -1,7 +1,7 @@
 Netty client library for Android
 =============
 
-<b>Introduction</b>
+## Introduction
 
 
 This library is based on Netty(http://netty.io/) Project v3.8. <br/>
@@ -9,11 +9,9 @@ This library is based on Netty(http://netty.io/) Project v3.8. <br/>
 There are too many unusable APIs in the Original project, because Android is not a Java SE environment.
 If you are developing an TCP client, or if the server uses the Netty library, try to use this library.
 
-This library is much smaller than original library (About 279 KB, with Proguard 50~100 KB).
+This library is much smaller than original library (About 279 KB, after Proguard optimization, it will be reduced to about 50~100 KB).
 
 <br/><br/><br/>
-
-
 
 이 라이브러리는 Netty(http://netty.io/) 프로젝트 v3.8을 Android 용으로 경량화한 버전입니다. <br/>
 별도의 소스코드 추가없이 Netty 내부의 코드에서 Android에 불필요한 내용을 삭제하고 정리했습니다. <br/>
@@ -26,6 +24,17 @@ Android Framework은 Java SE 기반이 아니기 때문에 SE 기반으로 작�
 
 Jar 파일 용량 기준 279 KB 정도로 기존 1.2 MB에 비해 1/3 도 안되는 크기 이며 Proguard 적용시 50 ~ 100 KB 미만으로 줄일 수 있습니다.
 
+<br/><br/><br/>
+
+## Quick Start
+
+Netty for Android Library is pushed to Maven Central as an AAR. Therefore, the easiest way to add Netty for Android to your project is via Gradle, you just need to add the following dependency to your build.gradle:
+
+dependencies {  
+    mavenCentral()
+    compile 'com.hovans.netty:library:+'
+}
+This means that you will always use the latest version available.
 
 <br/><br/><br/>
 
