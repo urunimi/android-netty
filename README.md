@@ -26,19 +26,23 @@ Jar 파일 용량 기준 279 KB 정도로 기존 1.2 MB에 비해 1/3 도 안되
 
 <br/><br/><br/>
 
+
 ## Quick Start
 
 Netty for Android Library is pushed to Maven Central as an AAR. Therefore, the easiest way to add Netty for Android to your project is via Gradle, you just need to add the following dependency to your build.gradle:
 
+```groovy
 dependencies {  
     mavenCentral()
     compile 'com.hovans.netty:library:+'
 }
+```
+
 This means that you will always use the latest version available.
 
 <br/><br/><br/>
 
-<b>License</b>
+## License
  
  Copyright 2012 The Netty Project
  
