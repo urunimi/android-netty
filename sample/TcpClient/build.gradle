@@ -3,7 +3,8 @@ apply plugin: 'android'
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
     compile 'com.hovans.android:library:0.+'
-    compile project(':library')
+    compile 'com.hovans.netty:library:+'
+//    compile project(':library')
 }
 
 android {
