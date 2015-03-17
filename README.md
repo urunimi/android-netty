@@ -40,6 +40,11 @@ dependencies {
 
 This means that you will always use the latest version available.
 
+<br/>
+
+Sample project needs Codelab library(https://github.com/urunimi/CodelabLibrary).
+Therefore, if you don't use gradle build, download the library project.
+
 <br/><br/><br/>
 
 ## License
